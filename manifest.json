@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "编程随想博客修复",
+  "version": "0.1.0",
+  "description": "修改编程随想博客评论区加载出错的问题",
+  "homepage_url": "https://program-think.blogspot.com",
+  "icons": {
+    "16": "thinker.png",
+    "32": "thinker.png",
+    "48": "thinker.png",
+    "128": "thinker.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://program-think.blogspot.com/*"], 
+      "js": ["content_scripts.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "host_permissions": [
+    "*://program-think.blogspot.com/*"
+  ]
+}
