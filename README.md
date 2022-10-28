@@ -6,6 +6,8 @@
   下载解压本文件夹，点击chrome右上角三个点打开更多工具 -> 扩展程序 -> 打开扩展程序右上角开发者模式 -> 将本文件夹拖入扩展程序页面即可打开编程随想博客评论
 ## 回复博客评论
 因为地址参数中的po改成了postID所以404错误，只要复制404页面链接到浏览器然后将参数postID改为po就可以正常回复了
+![image](https://user-images.githubusercontent.com/109212755/198521531-21973784-6c84-4aa2-b72c-f370a581c542.png)
+
 
 # 问题排查
 1. f12发现控制台报错信息： NOT found 'postID' in 'm_sEditorUrl' attr!
