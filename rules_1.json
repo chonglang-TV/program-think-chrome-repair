@@ -1,0 +1,14 @@
+[{
+  "id": 1,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "regexSubstitution": "\\1po="
+    }
+  },
+  "condition": {
+    "requestDomains": ["blogger.com"],
+    "regexFilter": "(/comment/frame[^#]*?[?&])postID=",
+    "resourceTypes": ["main_frame"]
+  }
+}]

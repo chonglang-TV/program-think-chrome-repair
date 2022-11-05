@@ -17,7 +17,17 @@
       "run_at": "document_start"
     }
   ],
+  "permissions": [
+    "declarativeNetRequest"
+  ],
   "host_permissions": [
-    "*://program-think.blogspot.com/*"
-  ]
+    "https://*/*"
+  ],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules_1.json"
+    }]
+  }
 }
