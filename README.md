@@ -1,8 +1,28 @@
-## 描述
-这是一个chrome浏览器插件，用于修复[编程随想](https://program-think.blogspot.com)博客评论区加载出错的问题，火狐插件参考此[修复仓库](https://github.com/learnthink/blog_repair)
+# program-think-chrome-repair
 
-## 使用
-  下载解压本文件夹，点击chrome右上角三个点打开更多工具 -> 扩展程序 -> 打开扩展程序右上角开发者模式 -> 将本文件夹拖入扩展程序页面即可打开编程随想博客评论
+这是一个chrome浏览器插件，用于修复[编程随想](https://program-think.blogspot.com)博客评论区加载出错的问题，火狐插件参考此[修复仓库](https://github.com/learnthink/blog_repair)，如果你使用油猴，也可以翻到下面的油猴教程
+
+## 使用本插件
+1. 下载解压本文件夹
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/5f9a3d08-d2c0-4290-9392-ffcb2a796e64)
+2. 点击chrome右上角三个点打开更多工具 -> 扩展程序
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/53f45ac7-8f8d-4254-ba8c-0a4694b5cd6c)
+3. 打开扩展程序右上角开发者模式
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/632f9b74-3ed6-4497-8968-7264a9fa559f)
+4. 点击加载已解压的扩展程序，选择解压后的文件夹，或将解压后的文件夹拖入扩展程序页面
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/831fd347-ff3e-4138-989a-701f42083054)
+5. 可以打开或者留言编程随想博客评论区
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/4e9d2a9f-e161-455f-a962-d2593f2b6008)
+
+## 使用油猴脚本
+1. 打开 [chrome应用商店](https://chrome.google.com/webstore/search/tampermonkey?hl=zh-CN) 搜索 tampermonkey
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/3df3bd9f-5e04-46f8-8e6c-23429fabfe13)
+2. 点击添加至chrome
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/f3cc988e-e9b2-40a9-b97b-d200213db467)
+3. 打开此脚本地址点击安装此脚本 https://greasyfork.org/zh-CN/scripts/450470-%E7%BC%96%E7%A8%8B%E9%9A%8F%E6%83%B3%E7%9A%84%E5%8D%9A%E5%AE%A2%E8%AF%84%E8%AE%BA%E5%8C%BA%E4%BF%AE%E5%A4%8D/code
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/7f6b6d7d-6181-4b8d-8f61-88cc55789feb)
+![image](https://github.com/chonglang-TV/program-think-chrome-repair/assets/109212755/b09c2e41-c0b7-44f8-8b63-a8cb0c6f01d4)
+4. 安装后刷新博客页面同样可以打开评论区
 
 ## 问题排查
 1. f12发现控制台报错信息： NOT found 'postID' in 'm_sEditorUrl' attr!
